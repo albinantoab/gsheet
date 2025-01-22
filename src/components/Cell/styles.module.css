@@ -1,0 +1,58 @@
+.Cell {
+  border: 1px solid #e2e2e2;
+  width: 80px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  font-size: 14px;
+}
+
+.Cell input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.Cell span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.HeaderCell {
+  background-color: #f0f0f0;
+
+  & > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Cell span {
+  width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Cell.selected {
+  border: 1px solid #1a73e8;
+  z-index: 1;
+}
+
+.Cell.bold {
+  font-weight: bold;
+}
+
+.Cell.italic {
+  font-style: italic;
+}
+
+.Cell.underline {
+  text-decoration: underline;
+}

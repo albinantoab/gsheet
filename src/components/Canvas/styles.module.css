@@ -1,0 +1,13 @@
+.Canvas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Table {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  width: fit-content;
+  margin-top: 48px;
+}

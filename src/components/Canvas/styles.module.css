@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: 100%;
+  width: 100%;
+  padding-top: 48px;
 }
 
 .Table {
   display: flex;
   flex-direction: column;
-  border: 2px solid #ccc;
-  width: fit-content;
+  width: 100%;
   margin-top: 48px;
+  flex: 1;
+  overflow: hidden;
+
 }

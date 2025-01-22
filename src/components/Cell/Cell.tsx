@@ -62,7 +62,7 @@ const Cell: React.FC<CellProps> = ({ cellId, isHeader = false }) => {
         isBold && styles.bold,
         isItalic && styles.italic,
         isUnderline && styles.underline,
-        cellId === currentCell && styles.selected
+        Number(cellId) > 0 && cellId === currentCell && styles.selected
       )}
       data-cell-id={cellId}
       onClick={handleClick}

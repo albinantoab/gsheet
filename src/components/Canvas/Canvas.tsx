@@ -20,7 +20,7 @@ const Canvas = () => {
     dispatch(initializeCells(rows, columns));
   }, [dispatch, rows, columns]);
 
-  const cellWidth = 90;
+  const cellWidth = 80;
   const cellHeight = 20;
   const VirtualGrid = FixedSizeGrid as any;
 

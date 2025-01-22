@@ -6,6 +6,7 @@
   align-items: center;
   padding: 0 4px;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 .Cell input {
@@ -42,7 +43,7 @@
 
 .Cell.selected {
   border: 1px solid #1a73e8;
-  z-index: 1;
+  z-index: 12;
 }
 
 .Cell.bold {
